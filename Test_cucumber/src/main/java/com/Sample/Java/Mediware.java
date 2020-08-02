@@ -80,7 +80,7 @@ public class Mediware extends SeleniumBase {
 		DriverManager.getWebdriver().switchTo().frame("CallingPageDiv");
 		waitForElementToBeVisible(med_appoinment);
 	   click(med_appoinment);
-	   maxwait(3000);
+	   maxwait(4000);
 	   DriverManager.getWebdriver().switchTo().defaultContent();
 	}
 	
