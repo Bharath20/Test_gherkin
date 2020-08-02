@@ -64,7 +64,7 @@ public class Stepdef_Login extends SeleniumBase {
 	@When("^the user clicks on the appoinments field$")
 	public void the_user_clicks_on_the_appoinments_field() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-		maxwait(6000);
+		maxwait(5000);
 	    med.appoinment_field();
 	}
 
